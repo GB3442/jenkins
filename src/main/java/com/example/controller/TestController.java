@@ -9,6 +9,6 @@ public class TestController {
 
 	@GetMapping("wish/{name}")
 	public String sayHello(@PathVariable("name") String name) {
-		return "Good Morning "+name;
+		return "Good evening "+name;
 	}
 }
